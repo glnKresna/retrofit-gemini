@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-interface SidebarButtonProps {
+interface SidebarItemsProps {
     icon: string;
     label: string;
     isActive?: boolean;
