@@ -1,7 +1,8 @@
 export interface Project {
     id: string;
-    name: string;
+    label: string;
     icon: string;
+    chatIds: string[];
 }
 
 export interface SideBarButtonProps {
@@ -14,7 +15,8 @@ export interface SideBarButtonProps {
 export interface SuperchargedStore {
     projects: Project[];
     activeProject: string | null;
-    chatMapping: Record<string, string>;
-    addProject: (name: string, icon: string) => void;
+
+    addProject: (project: Project) => void;
     setActiveProject: (id: string | null) => void;
+    addChatToProject: (projectId: string, chatId: string) => void;
 }

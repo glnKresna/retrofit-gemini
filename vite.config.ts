@@ -9,4 +9,13 @@ export default defineConfig({
     react(),
     crx({ manifest }),
   ],
+
+  server: {
+    port: 5173,
+    strictPort: true,
+    hmr: {
+      port: 5173,
+    },
+    cors: true, // Allow CORS for development server
+  },
 })
