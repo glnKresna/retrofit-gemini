@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Retrofit for Gemini",
-    "version": "0.0.0",
+    "version": "0.1",
     "description": "Quality of Life extension for Gemini",
     "permissions": ["storage"],
     "host_permissions": ["https://gemini.google.com/*"],
@@ -12,7 +12,7 @@
 
     "content_scripts": [{
         "matches": ["https://gemini.google.com/*"],
-        "js": ["src/entrypoint/content.ts"],
+        "js": ["src/entrypoint/content.tsx"],
         "run_at": "document_end"
     }]
 }
