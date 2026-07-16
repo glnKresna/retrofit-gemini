@@ -1,10 +1,10 @@
-# ChargeGPT Architecture
+# Retrofit for Gemini Architecture
 
 ## Vision
 
-ChargeGPT is a browser extension that enhances the ChatGPT web experience with quality-of-life improvements.
+"Retrofit for Gemini" is a browser extension that enhances the Gemini web experience with quality-of-life improvements.
 
-The extension should feel like a natural extension of ChatGPT rather than a separate application.
+The extension should feel like a natural extension of Gemini rather than a separate application.
 
 ---
 
@@ -164,11 +164,11 @@ Avoid calling chrome.storage directly throughout the project.
 
 ---
 
-# ChatGPT Integration
+# Gemini Integration
 
-Any code that understands ChatGPT's DOM belongs in shared/chatgpt.
+Any code that understands Gemini's DOM belongs in shared/gemini.
 
-If ChatGPT changes its HTML structure, this should be the primary place requiring updates.
+If Gemini changes its HTML structure, this should be the primary place requiring updates.
 
 ---
 

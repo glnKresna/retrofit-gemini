@@ -2,7 +2,7 @@
 
 General-purpose DOM helpers.
 
-Unlike `shared/chatgpt`, these utilities should work on any webpage.
+Unlike `shared/gemini`, these utilities should work on any webpage.
 
 Examples:
 

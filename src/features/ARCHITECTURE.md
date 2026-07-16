@@ -1,6 +1,6 @@
 # Features
 
-Contains all ChargeGPT functionality.
+Contains all Retrofit for Gemini functionality.
 
 Each feature owns everything it needs:
 

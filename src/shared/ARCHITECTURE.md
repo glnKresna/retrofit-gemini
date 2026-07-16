@@ -2,7 +2,7 @@
 
 Reusable code shared across multiple parts of the project.
 
-Nothing in this folder should implement a ChargeGPT feature.
+Nothing in this folder should implement a Retrofit for Gemini feature.
 
 Examples:
 
