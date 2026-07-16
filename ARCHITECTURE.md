@@ -150,7 +150,7 @@ If multiple features need the same code, move it into shared/.
 
 Shared code should be generic.
 
-If removing "ChargeGPT" from the code would still make sense, it probably belongs in shared/.
+If removing "Retrofit for Gemini" from the code would still make sense, it probably belongs in shared/.
 
 Otherwise, it probably belongs inside a feature.
 
