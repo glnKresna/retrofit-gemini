@@ -1,12 +1,12 @@
-import "./ComposerAction.css";
+import "./CapsuleButton.css";
 
-type ComposerActionProps = {
+type CapsuleButtonProps = {
     label: string
     onClick?: () => void
     icon?: React.ReactNode
 };
 
-export function ComposerAction(props: ComposerActionProps) {
+export function CapsuleButton (props: CapsuleButtonProps) {
     return (
         <button className="retrofit-composer-action" onClick={props.onClick}>
             <span>{props.icon}</span>

@@ -1,18 +1,18 @@
-import { ComposerAction } from "../composer-action/ComposerAction";
+import { CapsuleButton } from "../buttons/capsule-button/CapsuleButton";
 import "./ComposerToolbar.css"
 
 export function ComposerToolbar() {
     return (
         <div className="retrofit-toolbar">
-            <ComposerAction 
+            <CapsuleButton 
                 icon="📚"
                 label="Prompt Library"
-                onClick={() => console.log("Prompt Library clicked")}
+                onClick={() => console.log("Prompt Library: clicked")}
             />
 
-            <ComposerAction 
-                icon="⚫"
-                label="This is a ridiculously long placeholder"
+            <CapsuleButton
+                icon="😳"
+                label="Diinjak cina?"
                 onClick={() => console.log("Prompt Library clicked")}
             />
         </div>
