@@ -1,6 +1,6 @@
 # Injected Application
 
-The React application rendered inside ChatGPT.
+The React application rendered inside Gemini.
 
 This folder contains the application's layout, shared UI, and providers.
 

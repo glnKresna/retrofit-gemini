@@ -1,1 +1,0 @@
-console.log("Retrofit for Gemini is running!")

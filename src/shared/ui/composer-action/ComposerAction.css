@@ -1,0 +1,16 @@
+.retrofit-composer-action {
+    background-color: blue;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 50;
+    cursor: pointer;
+}
+
+.retrofit-composer-action:active {
+    transform: scale(0.98)
+}
